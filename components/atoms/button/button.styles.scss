@@ -1,0 +1,25 @@
+.button {
+  background-color: var(--primary-color);
+  color: var(--form-text-color);
+
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+
+  &.fullWidth {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: var(--primary-color-dark);
+  }
+
+  &:disabled {
+    background-color: var(--disabled-color);
+    cursor: not-allowed;
+  }
+}

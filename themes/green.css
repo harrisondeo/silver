@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #24a43d;
+  --primary-color-rgb: 36, 164, 61;
+  --primary-color-light: #3dbf5a;
+  --primary-color-light-rgb: 61, 191, 90;
+  --primary-color-dark: #1e7f2d;
+  --primary-color-dark-rgb: 30, 127, 45;
+
+  --disabled-color: #d3d3d3;
+  --success-color: #24a43d;
+  --error-color: #ff0000;
+
+  --form-text-color: white;
+
+  --border-radius: 0.5rem;
+
+  --divider-color: #d3d3d3;
+
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}

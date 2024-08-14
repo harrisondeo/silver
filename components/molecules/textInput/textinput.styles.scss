@@ -1,0 +1,19 @@
+.textInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.textInput__validation {
+  margin: 0;
+
+  &.valid {
+    color: var(--success-color);
+  }
+
+  &.invalid {
+    color: var(--error-color);
+  }
+}

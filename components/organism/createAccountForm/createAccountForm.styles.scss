@@ -1,0 +1,29 @@
+.createAccountForm__input-row {
+  display: flex;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.createAccountForm__form-group {
+  display: flex;
+  width: calc(100% - 1rem);
+
+  & > .createAccountForm__form-item {
+    width: 50%;
+    &:first-child {
+      margin-right: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    & > .createAccountForm__form-item {
+      width: 100%;
+      &:first-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

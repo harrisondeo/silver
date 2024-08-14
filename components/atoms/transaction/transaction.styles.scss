@@ -1,0 +1,35 @@
+.transactionsPage__transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--divider-color);
+
+  p {
+    margin: 0;
+  }
+
+  .transactionsPage__transaction-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .transactionsPage__transaction-amount {
+    font-size: 1.2rem;
+  }
+  .transactionsPage__transaction-amount.negative {
+    color: var(--error-color);
+  }
+
+  .transactionsPage__transaction-description {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: #666;
+  }
+
+  .transactionPage__transaction-date-group {
+    border-radius: var(--border-radius);
+    background: var(--primary-color);
+  }
+}
