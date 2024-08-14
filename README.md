@@ -2,7 +2,7 @@
 
 ## How to run the project
 
-1. Clone the repository
+1. Clone or download the repository zip
 2. Run `npm install` to install the dependencies
 3. Run `npm run storybook` to start storybook in dev mode
 
